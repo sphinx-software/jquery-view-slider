@@ -1,10 +1,10 @@
 # Simple jQuery View Slider
 
-##Installation:
+##Installation
 
 `bower install --save sphinx-jquery-view-slider`
 
-##Mark up:
+##Mark up
 
 ```
      <!-- Dependencies -->
@@ -26,7 +26,7 @@
 ```
 
 
-##Usage:
+##Usage
 
 ```
 var navigator = new ViewNavigator($element);
