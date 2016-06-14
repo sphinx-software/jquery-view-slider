@@ -1,0 +1,24 @@
+{
+  "name": "sphinx-jquery-view-slider",
+  "main": "sphinx-jquery-view-slider.js",
+  "authors": [
+    "rikky <rikky@sphinx-software.com>"
+  ],
+  "description": "Simple View Slider",
+  "keywords": [
+    "view-slider"
+  ],
+  "license": "MIT",
+  "homepage": "http://sphinx.sg",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "animate.css": "^3.5.2"
+  }
+}

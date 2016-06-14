@@ -1,0 +1,6 @@
+[data-view].slider-enter {
+    animation: slideInRight 500ms ease;
+}
+[data-view].slider-leave {
+    animation: slideOutLeft 500ms ease;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery View Slider</title>
+    <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
+    <link rel="stylesheet" href="sphinx-jquery-view-slider.css">
+</head>
+<body>
+    <div id="viewContainer">
+        <div data-view="foo">
+            <h1>Foo</h1>
+        </div>
+        <div data-view="bar">
+            <h1>Bar</h1>
+        </div>
+    </div>
+
+
+    <button data-nav-to="foo">Navigate to Foo</button>
+    <button data-nav-to="bar">Navigate to Bar</button>
+
+</body>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="sphinx-jquery-view-slider.js"></script>
+<script>
+    var fooBarNavigator = new ViewsNavigator($('#viewContainer'));
+
+    $('[data-nav-to]').click(function () {
+
+        var target = $(this).data('nav-to');
+
+        fooBarNavigator.transit(target).then(function () {
+            console.log('navigated to ' + target + ' !');
+        });
+    })
+</script>
+</html>
