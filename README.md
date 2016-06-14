@@ -1,4 +1,4 @@
-# jquery-view-slider
+# Simple jQuery View Slider
 
 
 ##Mark up:
