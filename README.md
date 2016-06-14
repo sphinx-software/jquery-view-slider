@@ -1,5 +1,8 @@
 # Simple jQuery View Slider
 
+##Installation:
+
+`bower install --save sphinx-jquery-view-slider`
 
 ##Mark up:
 
